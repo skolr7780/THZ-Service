@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  font-size: 20px;
+  background-color: #555;
+  color: white;
+  text-align: center;
+  font-family: "Do Hyeon", sans-serif;
+}
+
+
+.Wel p {
+  font-size: 30px;
+  font-family: "Do Hyeon", sans-serif;
+  padding: 70px;
+}
+
+/* Header */
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+  font-family: "Do Hyeon", sans-serif;
+}
+
+/* Icon-header */
+
+.icon-bar {
+  width: 100%;
+  /* Full-width */
+  background-color: #555;
+  /* Dark-grey background */
+  overflow: auto;
+  /* Overflow due to float */
+}
+
+.icon-bar a {
+  float: left;
+  /* Float links side by side */
+  text-align: center;
+  /* Center-align text */
+  width: 20%;
+  /* Equal width (5 icons with 20% width each = 100%) */
+  padding: 12px 0;
+  /* Some top and bottom padding */
+  transition: all 0.3s ease;
+  /* Add transition for hover effects */
+  color: white;
+  /* White text color */
+  font-size: 36px;
+  /* Increased font size */
+}
+
+.icon-bar a:hover {
+  background-color: #1abc9c;
+  /* Add a hover color */
+}
+
+.active {
+  background-color: #555;
+  /* Add an active/current color */
+}
+
+/* cricle */
+
+.circle {
+  height: 30px;
+  width: 30px;
+  background-color: #555;
+  border-radius: 50%;
+  margin: 30px;
+}
+
+.circle:hover {
+  background-color: #1abc9c;
+}
+
+.text-cricle {
+  text-align: center;
+  font-size: 50px;
+  margin: 100px 210px 20px 110px;
+  font-family: "Scheherazade", serif;
+}
+
+.text-2 {
+  text-align: center;
+  font-size: 60px;
+  padding: 40px;
+  margin: 90px 200px 10px 110px;
+  font-family: "Scheherazade", serif;
+}
+
+#text {
+  text-align: center;
+  cursor: pointer;
+}

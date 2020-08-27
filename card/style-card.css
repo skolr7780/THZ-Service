@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  font-family: "Do Hyeon", sans-serif;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  font-family: "Do Hyeon", sans-serif;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #1abc9c;
+  font-size: 30px;
+  color: white;
+  font-family: "Do Hyeon", sans-serif;
+}
+
+.container {
+  padding: 0 16px;
+  font-family: "Do Hyeon", sans-serif;
+}
+
+.card:hover {
+  -ms-transform: scale(1.1);
+  /* IE 9 */
+  -webkit-transform: scale(1.1);
+  /* Safari 3-8 */
+  transform: scale(1.1);
+}
+
+.container::after,
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+  font-family: "Do Hyeon", sans-serif;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #1abc9c;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-family: "Do Hyeon", sans-serif;
+}
+
+.button:hover {
+  background-color: #555;
+  font-family: "Do Hyeon", sans-serif;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.back a:link {
+  text-decoration: none;
+}
+
+.back a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.back a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.back {
+  color: black;
+}
+
+.snapchat-t a:link {
+  text-decoration: none;
+}
+
+.snapchat-t a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.snapchat-t a:hover {
+  text-decoration: none;
+  color: #1abc9c;
+}
