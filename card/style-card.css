@@ -86,6 +86,21 @@ html {
   }
 }
 
+
+.Instagram-team a:link {
+  text-decoration: none;
+}
+
+.Instagram-team a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.Instagram-team a:hover {
+  text-decoration: none;
+  color: #1abc9c;
+}
+
 .back a:link {
   text-decoration: none;
 }
