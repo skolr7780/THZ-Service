@@ -105,3 +105,10 @@
   text-align: center;
   cursor: pointer;
 }
+
+.logo-footer img{
+  text-align: center;
+  width: 20;
+  height: 40px;
+  
+}
