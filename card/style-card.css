@@ -138,17 +138,3 @@ html {
   height: 40px;
   width: 80px;
 }
-
-.pubg-logo a:link {
-  text-decoration: none;
-}
-
-.pubg-logo a:visited {
-  text-decoration: none;
-  color: black;
-}
-
-.pubg-logo a:hover {
-  text-decoration: none;
-  color: #1abc9c;
-}
